@@ -8,7 +8,7 @@ const Index = () => {
         <meta name="description" content="Search for knowledges" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>hey there</div>
+      <div>netlify test!</div>
     </>
   );
 };
