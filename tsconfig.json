@@ -13,7 +13,11 @@
     "isolatedModules": true,
     "lib": ["dom", "dom.iterable", "esnext"],
     "skipLibCheck": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "components": ["./components"]
+    }
   },
   "exclude": ["build", "static", "**/node_modules/**", "**/*.js"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
